@@ -58,7 +58,7 @@ color: #000;
     height: 855px;
 }
 .bg-overlay {
-  background:rgba(236, 234, 234, 0.925);
+  background:rgba(0,0,0, 0.3);
   height: 855px;
 }
 
