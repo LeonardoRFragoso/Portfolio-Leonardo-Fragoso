@@ -229,7 +229,7 @@ section {
 
 #portfolio .portfolio-item:hover {
   transition: 0.5s;
-  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+  box-shadow: 5px 10px 5px rgb(238, 234, 234);
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -371,7 +371,7 @@ section {
 
 h2.connect {
    margin: 0;
-   color: rgba(0, 0, 0, 0.9);
+   color: rgb(238, 234, 234);
 }
 
 footer {
