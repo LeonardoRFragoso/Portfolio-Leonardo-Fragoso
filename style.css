@@ -82,8 +82,8 @@ color: #000;
 }
 /*small header*/
 .intro-message > h3 {
-    text-shadow: 1px 1px 1px rgba(241, 238, 238, 0.6);
-  color: rgb(243, 240, 240);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  color: black;
 }
 
 @media(max-width:767px) {
@@ -183,7 +183,7 @@ h2.section-heading {
  .content-section-a p {
     font-size: 22px;
    font-weight: bold;
-    color: #000;
+    color: rgb(238, 234, 234);
   }
 .content-section-a p a {
   color: silver;
