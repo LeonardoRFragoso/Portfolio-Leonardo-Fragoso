@@ -24,24 +24,24 @@ h6 {
 }
 .topnav ul.navbar-nav li a {
 background: rgba(28, 28, 28, 0.1);
-color: rgb(238, 234, 234);
+color: #000;
 }
 .topnav ul.navbar-nav li a:hover,
 .topnav ul.navbar-nav li a:focus
  {
 background: rgba(255, 255, 255, 0.5);
-color: rgb(238, 234, 234);
+color: #000;
 }
 
 .topnav .navbar-brand {
   background: rgba(28, 28, 28, 0.0);
-  color: rgb(238, 234, 234);
+  color: #000;
 }
 
 .topnav .navbar-brand:hover,
 .topnav .navbar-brand:focus {
   background: rgba(255, 255, 255, 0.5);
-  color: rgb(238, 234, 234);
+  color: #000;
 }
 
 .lead {
@@ -58,7 +58,7 @@ color: rgb(238, 234, 234);
     height: 855px;
 }
 .bg-overlay {
-  background:rgb(238, 234, 234);
+  background:rgba(0,0,0, 0.3);
   height: 855px;
 }
 
@@ -70,7 +70,7 @@ color: rgb(238, 234, 234);
 /*Big header*/
 .intro-message > h1 {
     margin-top: -50px;
-    text-shadow: 2px 1px 2px rgb(238, 234, 234);
+    text-shadow: 2px 1px 2px #000;
     font-size: 5em;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -82,8 +82,8 @@ color: rgb(238, 234, 234);
 }
 /*small header*/
 .intro-message > h3 {
-    text-shadow: 1px 1px 1px rgb(238, 234, 234);
-  color: rgb(238, 234, 234);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  color: black;
 }
 
 @media(max-width:767px) {
@@ -118,7 +118,7 @@ hr.intro-divider {
 /* social buttons */
 .btn {
   display: inline-block;
-  color: rgb(238, 234, 234);
+  color: #000;
   border: 2px outset rgba(0, 0, 0, 0.9);
   background: #C0C0C0;
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
@@ -157,7 +157,7 @@ hr.intro-divider {
   font-size: 22px;
 }
 .container .link-footer {
-  color: rgb(238, 234, 234);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 32px;
 }
@@ -176,14 +176,14 @@ hr.intro-divider {
 h2.section-heading {
     margin-top: 100px;
     font-size: 3em;
-    color: rgb(238, 234, 234);
+    color: rgba(0, 0, 0, 0.9);
 }
 
   /*text*/
  .content-section-a p {
     font-size: 22px;
    font-weight: bold;
-    color: rgb(238, 234, 234);
+    color: #000;
   }
 .content-section-a p a {
   color: silver;
@@ -193,20 +193,20 @@ h2.section-heading {
 .img-circle {
   margin-top: 150px;
   border: 1px outset rgba(255, 255, 255, 0.3);
-  box-shadow: 1px 1px 1px rgb(238, 234, 234);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
   
 }
 
 
 /* Portfolio section*/
 section {
-  color: rgb(238, 234, 234);
+  color: black;
   background: url('https://pesquisananet.com/pnn-web/wp-content/uploads/2018/03/pexels-photo-1.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
  #below-section {
-  color: rgb(238, 234, 234);
+  color: #000;
 }
 
 #small-text {
@@ -229,7 +229,7 @@ section {
 
 #portfolio .portfolio-item:hover {
   transition: 0.5s;
-  box-shadow: 5px 10px 5px rgb(238, 234, 234);
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -371,7 +371,7 @@ section {
 
 h2.connect {
    margin: 0;
-   color: rgb(238, 234, 234);
+   color: rgba(0, 0, 0, 0.9);
 }
 
 footer {
